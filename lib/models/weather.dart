@@ -52,7 +52,7 @@ class Weather extends Equatable {
         location,
       ];
 
-  //creating the weather instance from the api response body
+  //creating the weather instance from the API response body
   static Weather fromJson(dynamic json) {
     final consolidatedWeather = json['consolidated_weather'][0];
     return Weather(
