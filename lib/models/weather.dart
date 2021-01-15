@@ -69,6 +69,7 @@ class Weather extends Equatable {
     );
   }
 
+  // This Methods will maps the raw string to a Weather Condition in our enum
   static WeatherCondition _mapStringToWeatherCondition(String input) {
     WeatherCondition state;
     switch (input) {
